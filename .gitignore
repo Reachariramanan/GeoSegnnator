@@ -1,0 +1,47 @@
+# Ignore legacy and local data
+/old/
+/data/
+/.data/
+
+# Backend outputs
+/backend/data/outputs/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Node/Vite artifacts
+node_modules/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.qwen/

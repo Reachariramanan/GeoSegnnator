@@ -1,0 +1,599 @@
+{
+  "generated_at_utc": "2026-05-21T10:17:10.141220+00:00",
+  "band_definitions": [
+    {
+      "band": 1,
+      "name": "coastal_blue",
+      "display_name": "Coastal Blue",
+      "wavelength_nm": 443,
+      "fwhm_nm": 20,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B01",
+      "wavelength_range_nm": [
+        433.0,
+        453.0
+      ]
+    },
+    {
+      "band": 2,
+      "name": "blue",
+      "display_name": "Blue",
+      "wavelength_nm": 490,
+      "fwhm_nm": 50,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B02",
+      "wavelength_range_nm": [
+        465.0,
+        515.0
+      ]
+    },
+    {
+      "band": 3,
+      "name": "green_i",
+      "display_name": "Green I",
+      "wavelength_nm": 531,
+      "fwhm_nm": 36,
+      "sentinel2_interop": false,
+      "sentinel2_band": null,
+      "wavelength_range_nm": [
+        513.0,
+        549.0
+      ]
+    },
+    {
+      "band": 4,
+      "name": "green",
+      "display_name": "Green",
+      "wavelength_nm": 565,
+      "fwhm_nm": 36,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B03",
+      "wavelength_range_nm": [
+        547.0,
+        583.0
+      ]
+    },
+    {
+      "band": 5,
+      "name": "yellow",
+      "display_name": "Yellow",
+      "wavelength_nm": 610,
+      "fwhm_nm": 20,
+      "sentinel2_interop": false,
+      "sentinel2_band": null,
+      "wavelength_range_nm": [
+        600.0,
+        620.0
+      ]
+    },
+    {
+      "band": 6,
+      "name": "red",
+      "display_name": "Red",
+      "wavelength_nm": 665,
+      "fwhm_nm": 31,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B04",
+      "wavelength_range_nm": [
+        649.5,
+        680.5
+      ]
+    },
+    {
+      "band": 7,
+      "name": "rededge",
+      "display_name": "Red Edge",
+      "wavelength_nm": 705,
+      "fwhm_nm": 15,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B05",
+      "wavelength_range_nm": [
+        697.5,
+        712.5
+      ]
+    },
+    {
+      "band": 8,
+      "name": "nir",
+      "display_name": "NIR",
+      "wavelength_nm": 865,
+      "fwhm_nm": 40,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B8A",
+      "wavelength_range_nm": [
+        845.0,
+        885.0
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "/home/hariramanan/NTRO/rd/superdove/mountain_road.tif",
+      "driver": "GTiff",
+      "width": 3791,
+      "height": 3180,
+      "count": 8,
+      "dtypes": [
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16"
+      ],
+      "crs": "EPSG:32645",
+      "transform": [
+        3.0,
+        0.0,
+        633825.0,
+        0.0,
+        -3.0,
+        3004017.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "res": [
+        3.0,
+        3.0
+      ],
+      "nodata": 0.0,
+      "scales": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "descriptions": [
+        "coastal_blue",
+        "blue",
+        "green_i",
+        "green",
+        "yellow",
+        "red",
+        "rededge",
+        "nir"
+      ],
+      "band_index_by_name": {
+        "coastal_blue": 1,
+        "blue": 2,
+        "green_i": 3,
+        "green": 4,
+        "yellow": 5,
+        "red": 6,
+        "rededge": 7,
+        "nir": 8
+      },
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      },
+      "tags_image_structure": {
+        "COMPRESSION": "LZW",
+        "INTERLEAVE": "BAND",
+        "PREDICTOR": "2"
+      },
+      "tags_imagery": {},
+      "tags_rpc": {},
+      "tags_geotiff": {},
+      "band_definitions": [
+        {
+          "band": 1,
+          "name": "coastal_blue",
+          "display_name": "Coastal Blue",
+          "wavelength_nm": 443,
+          "fwhm_nm": 20,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B01",
+          "wavelength_range_nm": [
+            433.0,
+            453.0
+          ]
+        },
+        {
+          "band": 2,
+          "name": "blue",
+          "display_name": "Blue",
+          "wavelength_nm": 490,
+          "fwhm_nm": 50,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B02",
+          "wavelength_range_nm": [
+            465.0,
+            515.0
+          ]
+        },
+        {
+          "band": 3,
+          "name": "green_i",
+          "display_name": "Green I",
+          "wavelength_nm": 531,
+          "fwhm_nm": 36,
+          "sentinel2_interop": false,
+          "sentinel2_band": null,
+          "wavelength_range_nm": [
+            513.0,
+            549.0
+          ]
+        },
+        {
+          "band": 4,
+          "name": "green",
+          "display_name": "Green",
+          "wavelength_nm": 565,
+          "fwhm_nm": 36,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B03",
+          "wavelength_range_nm": [
+            547.0,
+            583.0
+          ]
+        },
+        {
+          "band": 5,
+          "name": "yellow",
+          "display_name": "Yellow",
+          "wavelength_nm": 610,
+          "fwhm_nm": 20,
+          "sentinel2_interop": false,
+          "sentinel2_band": null,
+          "wavelength_range_nm": [
+            600.0,
+            620.0
+          ]
+        },
+        {
+          "band": 6,
+          "name": "red",
+          "display_name": "Red",
+          "wavelength_nm": 665,
+          "fwhm_nm": 31,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B04",
+          "wavelength_range_nm": [
+            649.5,
+            680.5
+          ]
+        },
+        {
+          "band": 7,
+          "name": "rededge",
+          "display_name": "Red Edge",
+          "wavelength_nm": 705,
+          "fwhm_nm": 15,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B05",
+          "wavelength_range_nm": [
+            697.5,
+            712.5
+          ]
+        },
+        {
+          "band": 8,
+          "name": "nir",
+          "display_name": "NIR",
+          "wavelength_nm": 865,
+          "fwhm_nm": 40,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B8A",
+          "wavelength_range_nm": [
+            845.0,
+            885.0
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/home/hariramanan/NTRO/rd/superdove/snow_road.tif",
+      "driver": "GTiff",
+      "width": 3891,
+      "height": 2812,
+      "count": 8,
+      "dtypes": [
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16",
+        "uint16"
+      ],
+      "crs": "EPSG:32644",
+      "transform": [
+        3.0,
+        0.0,
+        301020.0,
+        0.0,
+        -3.0,
+        3766764.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "res": [
+        3.0,
+        3.0
+      ],
+      "nodata": 0.0,
+      "scales": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "offsets": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "descriptions": [
+        "coastal_blue",
+        "blue",
+        "green_i",
+        "green",
+        "yellow",
+        "red",
+        "rededge",
+        "nir"
+      ],
+      "band_index_by_name": {
+        "coastal_blue": 1,
+        "blue": 2,
+        "green_i": 3,
+        "green": 4,
+        "yellow": 5,
+        "red": 6,
+        "rededge": 7,
+        "nir": 8
+      },
+      "tags": {
+        "AREA_OR_POINT": "Area"
+      },
+      "tags_image_structure": {
+        "COMPRESSION": "LZW",
+        "INTERLEAVE": "BAND",
+        "PREDICTOR": "2"
+      },
+      "tags_imagery": {},
+      "tags_rpc": {},
+      "tags_geotiff": {},
+      "band_definitions": [
+        {
+          "band": 1,
+          "name": "coastal_blue",
+          "display_name": "Coastal Blue",
+          "wavelength_nm": 443,
+          "fwhm_nm": 20,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B01",
+          "wavelength_range_nm": [
+            433.0,
+            453.0
+          ]
+        },
+        {
+          "band": 2,
+          "name": "blue",
+          "display_name": "Blue",
+          "wavelength_nm": 490,
+          "fwhm_nm": 50,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B02",
+          "wavelength_range_nm": [
+            465.0,
+            515.0
+          ]
+        },
+        {
+          "band": 3,
+          "name": "green_i",
+          "display_name": "Green I",
+          "wavelength_nm": 531,
+          "fwhm_nm": 36,
+          "sentinel2_interop": false,
+          "sentinel2_band": null,
+          "wavelength_range_nm": [
+            513.0,
+            549.0
+          ]
+        },
+        {
+          "band": 4,
+          "name": "green",
+          "display_name": "Green",
+          "wavelength_nm": 565,
+          "fwhm_nm": 36,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B03",
+          "wavelength_range_nm": [
+            547.0,
+            583.0
+          ]
+        },
+        {
+          "band": 5,
+          "name": "yellow",
+          "display_name": "Yellow",
+          "wavelength_nm": 610,
+          "fwhm_nm": 20,
+          "sentinel2_interop": false,
+          "sentinel2_band": null,
+          "wavelength_range_nm": [
+            600.0,
+            620.0
+          ]
+        },
+        {
+          "band": 6,
+          "name": "red",
+          "display_name": "Red",
+          "wavelength_nm": 665,
+          "fwhm_nm": 31,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B04",
+          "wavelength_range_nm": [
+            649.5,
+            680.5
+          ]
+        },
+        {
+          "band": 7,
+          "name": "rededge",
+          "display_name": "Red Edge",
+          "wavelength_nm": 705,
+          "fwhm_nm": 15,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B05",
+          "wavelength_range_nm": [
+            697.5,
+            712.5
+          ]
+        },
+        {
+          "band": 8,
+          "name": "nir",
+          "display_name": "NIR",
+          "wavelength_nm": 865,
+          "fwhm_nm": 40,
+          "sentinel2_interop": true,
+          "sentinel2_band": "B8A",
+          "wavelength_range_nm": [
+            845.0,
+            885.0
+          ]
+        }
+      ]
+    }
+  ],
+  "band_definitions_by_name": {
+    "coastal_blue": {
+      "band": 1,
+      "name": "coastal_blue",
+      "display_name": "Coastal Blue",
+      "wavelength_nm": 443,
+      "fwhm_nm": 20,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B01",
+      "wavelength_range_nm": [
+        433.0,
+        453.0
+      ]
+    },
+    "blue": {
+      "band": 2,
+      "name": "blue",
+      "display_name": "Blue",
+      "wavelength_nm": 490,
+      "fwhm_nm": 50,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B02",
+      "wavelength_range_nm": [
+        465.0,
+        515.0
+      ]
+    },
+    "green_i": {
+      "band": 3,
+      "name": "green_i",
+      "display_name": "Green I",
+      "wavelength_nm": 531,
+      "fwhm_nm": 36,
+      "sentinel2_interop": false,
+      "sentinel2_band": null,
+      "wavelength_range_nm": [
+        513.0,
+        549.0
+      ]
+    },
+    "green": {
+      "band": 4,
+      "name": "green",
+      "display_name": "Green",
+      "wavelength_nm": 565,
+      "fwhm_nm": 36,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B03",
+      "wavelength_range_nm": [
+        547.0,
+        583.0
+      ]
+    },
+    "yellow": {
+      "band": 5,
+      "name": "yellow",
+      "display_name": "Yellow",
+      "wavelength_nm": 610,
+      "fwhm_nm": 20,
+      "sentinel2_interop": false,
+      "sentinel2_band": null,
+      "wavelength_range_nm": [
+        600.0,
+        620.0
+      ]
+    },
+    "red": {
+      "band": 6,
+      "name": "red",
+      "display_name": "Red",
+      "wavelength_nm": 665,
+      "fwhm_nm": 31,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B04",
+      "wavelength_range_nm": [
+        649.5,
+        680.5
+      ]
+    },
+    "rededge": {
+      "band": 7,
+      "name": "rededge",
+      "display_name": "Red Edge",
+      "wavelength_nm": 705,
+      "fwhm_nm": 15,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B05",
+      "wavelength_range_nm": [
+        697.5,
+        712.5
+      ]
+    },
+    "nir": {
+      "band": 8,
+      "name": "nir",
+      "display_name": "NIR",
+      "wavelength_nm": 865,
+      "fwhm_nm": 40,
+      "sentinel2_interop": true,
+      "sentinel2_band": "B8A",
+      "wavelength_range_nm": [
+        845.0,
+        885.0
+      ]
+    }
+  }
+}
