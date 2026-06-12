@@ -1,0 +1,52 @@
+services:
+  annotator:
+    build: .
+    image: segment-annotator
+    container_name: segment-annotator
+    ports:
+      - "8787:8787"
+    environment:
+      PORT: "8787"
+      SAM2_URL: "http://sam2:9000"
+      SAM3_URL: "http://sam3:9000"
+    volumes:
+      # Persist images, uploads and saved annotations on the host.
+      - ./Data:/app/Data
+    depends_on:
+      - sam2
+      - sam3
+    restart: unless-stopped
+
+  sam2:
+    build:
+      context: .
+      dockerfile: sam/Dockerfile
+    image: segment-annotator-sam2
+    container_name: segment-annotator-sam2
+    env_file:
+      - .env
+    environment:
+      SAM_MODEL_ID: "facebook/sam2.1-hiera-large"
+    volumes:
+      - ./Data:/app/Data:ro
+      - sam2-weights:/root/.cache/huggingface
+    restart: unless-stopped
+
+  sam3:
+    build:
+      context: .
+      dockerfile: sam/Dockerfile
+    image: segment-annotator-sam3
+    container_name: segment-annotator-sam3
+    env_file:
+      - .env
+    environment:
+      SAM_MODEL_ID: "facebook/sam3"
+    volumes:
+      - ./Data:/app/Data:ro
+      - sam3-weights:/root/.cache/huggingface
+    restart: unless-stopped
+
+volumes:
+  sam2-weights:
+  sam3-weights:

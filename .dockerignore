@@ -1,0 +1,11 @@
+**/node_modules
+**/__pycache__
+**/*.pyc
+client/dist
+server/static
+.git
+.venv
+venv
+*.log
+Data/uploads/*
+Data/annotations/*
