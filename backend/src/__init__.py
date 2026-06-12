@@ -1,1 +1,0 @@
-# GeoSegmenter backend package
